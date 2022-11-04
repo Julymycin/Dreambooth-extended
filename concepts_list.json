@@ -1,0 +1,15 @@
+[
+    {
+        "instance_prompt":      "photo of sks dog",
+        "class_prompt":         "a photo of dog",
+        "instance_data_dir":    "data/wrap_dogs",
+        "class_data_dir":       "data/dogs"
+    },
+
+    {
+        "instance_prompt":      "photo of qgys rose",
+        "class_prompt":         "a photo of rose",
+        "instance_data_dir":    "data/wrap_roses",
+        "class_data_dir":       "data/roses"
+    }
+]
