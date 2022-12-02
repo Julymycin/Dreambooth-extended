@@ -1,15 +1,22 @@
 [
     {
-        "instance_prompt":      "photo of sks dog",
-        "class_prompt":         "a photo of dog",
-        "instance_data_dir":    "data/wrap_dogs",
-        "class_data_dir":       "data/dogs"
+        "instance_prompt":      "photo of sks cat",
+        "class_prompt":         "a photo of cat",
+        "instance_data_dir":    "data/wrap_cats",
+        "class_data_dir":       "data/cats"
     },
 
     {
-        "instance_prompt":      "photo of qgys rose",
-        "class_prompt":         "a photo of rose",
-        "instance_data_dir":    "data/wrap_roses",
-        "class_data_dir":       "data/roses"
+        "instance_prompt":      "photo of efl hat",
+        "class_prompt":         "a photo of hat",
+        "instance_data_dir":    "data/wrap_hats",
+        "class_data_dir":       "data/hats"
+    },
+
+    {
+        "instance_prompt":      "sks cats auq efl hats",
+        "class_prompt":         "photo of cat and hat",
+        "instance_data_dir":    "data/wrap_cats_hats",
+        "class_data_dir":       "data/cats_hats"
     }
 ]

@@ -11,7 +11,7 @@ accelerate launch train_dreambooth.py \
   --output_dir=$OUTPUT_DIR \
   --revision="fp16" \
   --with_prior_preservation --prior_loss_weight=1.0 \
-  --seed=1337 \
+  --seed=1616 \
   --resolution=512 \
   --train_batch_size=1 \
   --train_text_encoder \
@@ -23,7 +23,7 @@ accelerate launch train_dreambooth.py \
   --lr_warmup_steps=0 \
   --num_class_images=50 \
   --sample_batch_size=4 \
-  --max_train_steps=1600 \
+  --max_train_steps=2400 \
   --save_interval=400 \
-  --save_sample_prompt="photo of a sks dog with qgys rose" \
+  --save_sample_prompt="photo of sks cat wearing efl hat" \
   --concepts_list="concepts_list.json"

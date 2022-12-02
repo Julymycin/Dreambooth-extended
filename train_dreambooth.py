@@ -263,7 +263,7 @@ def parse_args(input_args=None):
 
     return args
 
-
+# generate dataset from the definetion of concepts_list.json
 class DreamBoothDataset(Dataset):
     """
     A dataset to prepare the instance and class images with the prompts for fine-tuning the model.
