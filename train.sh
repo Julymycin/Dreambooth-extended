@@ -25,5 +25,5 @@ accelerate launch train_dreambooth.py \
   --sample_batch_size=4 \
   --max_train_steps=2400 \
   --save_interval=400 \
-  --save_sample_prompt="photo of sks cat wearing efl hat" \
-  --concepts_list="concepts_list.json"
+  --save_sample_prompt="photo of sks dog wearing a hat" \
+  --concepts_list="concepts_list_1.json"
